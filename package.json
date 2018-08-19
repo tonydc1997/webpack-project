@@ -6,6 +6,13 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2",
+      "react"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
