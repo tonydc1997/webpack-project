@@ -6,6 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "babel": {
     "presets": [
       "env",
@@ -13,9 +16,6 @@
       "react"
     ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
